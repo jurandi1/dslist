@@ -12,29 +12,27 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "tb_game")
 public class Game {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String title;
-	
+
 	@Column(name = "game_year")
 	private Integer year;
 	private String genre;
 	private String platforms;
 	private Double score;
 	private String imgUrl;
-	
+
 	@Column(columnDefinition = "TEXT")
 	private String shortDescription;
-	
+
 	@Column(columnDefinition = "TEXT")
 	private String longDescription;
-	
+
 	public Game() {
 	}
-
-	
 
 	public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl,
 			String shortDescription, String longDescription) {
@@ -49,8 +47,6 @@ public class Game {
 		this.shortDescription = shortDescription;
 		this.longDescription = longDescription;
 	}
-
-
 
 	public Long getId() {
 		return id;
@@ -133,13 +129,9 @@ public class Game {
 		return Objects.equals(id, other.id);
 	}
 
-
-
 	public Double getScore() {
 		return score;
 	}
-
-
 
 	public void setScore(Double score) {
 		this.score = score;
