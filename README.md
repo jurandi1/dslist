@@ -63,6 +63,20 @@ O projeto DSList é uma aplicação back-end que consiste em uma pesquisa de gam
 
 ![DSList TB_BELONGING](https://github.com/jurandi1/dslist/assets/105133847/06e24a3f-3771-4391-9b28-8bfea84c275e)
 
+### Testes do projeto no POSTEGRESQL
+
+- TB_GAME_LIST
+
+![PGADMIN_TB_GAME_LIST](https://github.com/jurandi1/dslist/assets/105133847/07984ad2-41d4-4a88-8c70-3ec179d432e2)
+
+- TB_GAME
+
+![PGADMIN_TB_GAME](https://github.com/jurandi1/dslist/assets/105133847/1f52a188-99a7-498a-9fe4-d283af8702c9)
+
+- TB_BELONGING
+
+![PGADMIN_TB_BELONGING](https://github.com/jurandi1/dslist/assets/105133847/31806ba9-7982-4fce-ada7-cc15a8965946)
+
 ### Testes do projeto no Postman
 
 - GET GAMES
